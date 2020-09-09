@@ -19,7 +19,7 @@ pipeline {
         stage('Windows Tests') {
           steps {
             echo 'Run Windows Tests'
-            bat 'run_windows_tests.bat'
+            bat 'run_windows_test.bat'
           }
         }
 
